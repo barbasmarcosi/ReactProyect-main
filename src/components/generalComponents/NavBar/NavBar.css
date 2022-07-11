@@ -1,0 +1,59 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 3.8rem;
+}
+
+.Button  {
+    padding: 0 .5rem;
+    list-style: none;
+    height: 100%;
+    width: calc((100% / 4) - 1%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.Button::after {
+    content: "";
+    position: absolute;
+    bottom: 15%;
+    z-index: 5;
+    width: 100%;
+    border-radius: 5px;
+    height: .2rem;
+    background-color: white;
+    transform: scaleX(0%);
+    transform-origin: left;
+    transition: transform 300ms ease-in;
+    pointer-events: none;
+}
+
+.Button:hover {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    /* text-shadow: 0px 5px 25px rgb(255, 255, 255); */
+    /* box-shadow: 0px 5px 25px rgb(255, 255, 255); */
+}
+
+.Button:hover.Button::after {
+    transform: scaleX(100%);
+}
+
+.Button--active {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    /* text-shadow: 0px 5px 25px rgb(255, 255, 255);
+    box-shadow: 0px 5px 25px rgb(255, 255, 255); */
+}
+
+.Button--active::after {
+    transform: scaleX(100%);
+}

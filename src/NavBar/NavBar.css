@@ -1,0 +1,30 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0
+}
+
+.Button  {
+    background-color: cadetblue;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid;
+    list-style: none;
+    text-align: center;
+    width: calc((100% / 4) - 1%);
+}
+.Button:hover {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-shadow: 0px 5px 25px rgb(255, 255, 255);
+    box-shadow: 0px 5px 25px rgb(255, 255, 255);
+}
+
+.Button--active {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-shadow: 0px 5px 25px rgb(255, 255, 255);
+    box-shadow: 0px 5px 25px rgb(255, 255, 255);
+}

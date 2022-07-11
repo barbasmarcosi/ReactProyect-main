@@ -1,0 +1,44 @@
+td {
+    background-color: cornflowerblue;
+    border: 1px solid;
+    margin: 2px;
+    height: 2vw;
+    text-align: left;
+}
+
+.BodyGrid-button {
+    height: 2vw;
+    width: 2vw;
+    text-align:center;
+}
+
+.BodyGrid-deleteButton:hover {
+    color: red;
+    box-shadow: 0px 5px 25px red;
+}
+
+.BodyGrid-editButton:hover {
+    color: aqua;
+    box-shadow: 0px 5px 25px aqua;
+}
+
+.BodyGrid-moreContentButton:hover {
+    color: ivory;
+    box-shadow: 0px 5px 25px ivory;
+}
+
+.SubTable {
+    top: 10%;
+    margin-top: 50px;
+    padding-top: 10%;
+    height: 50px;
+    background-color: #F2F4F5;
+    border: 0;
+    padding: 0;
+    padding-left: 5%;
+}
+
+.SubTableBar {
+    background-color: #F2F4F5;
+    border: none;
+}

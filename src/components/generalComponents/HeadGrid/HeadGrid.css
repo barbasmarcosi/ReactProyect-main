@@ -1,0 +1,12 @@
+.HeadGrid-button {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 2px;
+    padding: .3rem .25rem;
+    color: white;
+}
+
+.HeadGrid-button:hover {
+    box-shadow: 0px 5px 25px white;
+    cursor: pointer;
+}

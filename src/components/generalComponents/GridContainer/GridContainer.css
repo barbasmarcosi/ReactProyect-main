@@ -1,0 +1,6 @@
+table {
+    width: calc(100% - 2rem);
+    height: 100%;
+    margin: 1rem;
+    border-collapse: collapse;
+}

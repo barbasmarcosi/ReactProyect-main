@@ -1,0 +1,16 @@
+button {
+    padding: .35rem .5rem;
+    border-radius: 5px;
+    border: none;
+    margin: 0 .5rem;
+    font-size: 1.5vw;
+    box-shadow: var(--shadow);
+    background-color: var(--primary-color);
+    transition: all 100ms ease-in;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: none;
+}

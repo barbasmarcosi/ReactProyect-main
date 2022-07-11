@@ -1,0 +1,47 @@
+.Header {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+    box-shadow: var(--shadow);
+    color: white;
+}
+
+.Header > li {
+    border-radius: 4px;
+    list-style: none;
+    text-align: center;
+}
+
+.Children, .Title {
+    flex-grow: 1;
+}
+
+.Children {
+    margin-right: 1rem;
+    height: 100%;
+}
+
+.Title:hover {
+    list-style: none;
+    text-shadow: 0px 5px 25px rgb(255, 255, 255);
+}
+
+.LogoLi{
+    text-align: left;
+}
+
+.Logo {
+    width: 4.2rem;
+    margin-inline: 1rem;
+}
+
+.LogoLi--active {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-shadow: 0px 5px 25px rgb(255, 255, 255);
+}

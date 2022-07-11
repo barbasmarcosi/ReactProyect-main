@@ -1,0 +1,40 @@
+.Header {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.Header > li {
+    border-radius: 4px;
+    list-style: none;
+    text-align: center;
+}
+
+.About, .Title {
+    flex-grow: 1;
+}
+
+.About:hover, .Title:hover {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-shadow: 0px 5px 25px rgb(255, 255, 255);
+}
+
+.LogoLi{
+    text-align: left;
+}
+
+.Logo {
+    width: 80px;
+}
+
+.LogoLi--active {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-shadow: 0px 5px 25px rgb(255, 255, 255);
+}
